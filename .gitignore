@@ -1,0 +1,26 @@
+# Entornos virtuales
+venv/
+env/
+.venv/
+
+# Cache de Python
+__pycache__/
+*.pyc
+
+# Nota: model/model.h5 y model/scaler.joblib SI se versionan a proposito,
+# la app de Streamlit los necesita para correr en la nube sin reentrenar.
+
+# Datos (el CSV no hace falta para correr la app, solo para reentrenar)
+data/*.csv
+
+# Streamlit (config.toml de tema se mantiene versionado)
+.streamlit/secrets.toml
+
+# Quarto
+.quarto/
+informe.html
+
+# Editor / SO
+.vscode/
+.idea/
+.DS_Store
