@@ -13,8 +13,11 @@ __pycache__/
 # Datos (el CSV no hace falta para correr la app, solo para reentrenar)
 data/*.csv
 
-# Streamlit (config.toml de tema se mantiene versionado)
-.streamlit/secrets.toml
+# Streamlit (config.toml de tema ya esta versionado, esto solo bloquea archivos nuevos)
+.streamlit/
+
+# Archivos comprimidos
+*.zip
 
 # Quarto
 .quarto/
